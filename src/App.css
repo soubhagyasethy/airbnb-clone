@@ -28,7 +28,7 @@ section {
 }
 
 .hero--photo {
-  max-width: 400px;
+  width: 25rem;
   align-self: center;
 }
 
