@@ -41,11 +41,17 @@ section {
 }
 
 /* style the card */
+.card-section {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
 .card {
   font-size: small;
 }
 .card-image {
   border-radius: 0.56rem;
+  width: 12rem;
 }
 
 .card-rating {
