@@ -58,7 +58,6 @@ section {
   display: flex;
   flex-direction: row;
   margin-top: -0.6rem;
-  /* background-color: blue; */
 }
 
 .card-star {
@@ -69,7 +68,3 @@ section {
 .card-text {
   margin-top: -1rem;
 }
-
-/* .grey {
-  opacity: 0.6;
-} */

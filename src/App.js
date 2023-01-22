@@ -20,19 +20,13 @@ export default function App() {
       />
     )
   })
+  
   return (
     <div className="App">
       <Navbar />
       <Hero />
       <section className="card-section">
       {cards}
-      {/* <Card
-        rating="5.0"
-        reviewCount="6"
-        location="USA"
-        title="Life lessons with Katie Zaferes"
-        price="136" 
-      /> */}
       </section>
     </div>
   );
