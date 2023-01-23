@@ -8,9 +8,11 @@ body {
 }
 
 nav {
-  height: 70px;
+  height: 85px;
   display: flex;
-  padding: 20px 36px;
+  align-items: center;
+  padding: 0px 90px;
+  position: relative;
   box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
 }
 
@@ -18,13 +20,38 @@ nav {
   max-width: 100px;
 }
 
-section {
-  padding: 20px;
+.login {
+  background-color: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  margin-right: 90px;
+  height: 35px;
+  width: 80px;
+  border: 1px solid rgb(180, 176, 176);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 15px;
 }
+
+.login-image {
+  height: 15px;
+  margin-right: 3px;
+}
+.login:hover {
+  box-shadow: 0px 2px 3px rgb(180, 176, 176);
+  transition: 0.3s;
+}
+
+/* style the hero section */
 
 .hero {
   display: flex;
   flex-direction: column;
+  padding: 20px 90px;
 }
 
 .hero--photo {
@@ -40,18 +67,25 @@ section {
   margin-top: 0;
 }
 
-/* style the card */
+/* style the card section */
 .card-section {
   display: flex;
+  padding: 0px 80px;
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+
 .card {
+  display: flex;
+  flex-direction: column;
   font-size: small;
+  margin: 0px 10px;
 }
+
 .card-image {
   border-radius: 0.56rem;
   width: 12rem;
+  height: 16rem;
 }
 
 .card-rating {
